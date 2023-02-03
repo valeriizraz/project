@@ -6,10 +6,34 @@
     font-size: 24px;
     padding: 30px 70px;
     margin-bottom: 20px;
-}
+    position: relative;
+    }
 
 .item-questions:nth-child(2n) {
     background-color: #440F51;
     color: white;
-}
+    }
 
+.questions-white:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/preguntas/open.svg);
+    background-size: contain;
+    }
+
+.questions-biolet:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    right: 70px;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/preguntas/open-purple.svg);
+    background-size: contain;
+    }
