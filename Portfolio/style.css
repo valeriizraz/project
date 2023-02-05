@@ -1,0 +1,94 @@
+@import "index.css";
+
+.header {
+    height: 172px;
+}
+
+.header-top {
+}
+
+.container {
+}
+
+.header-logo {
+    margin-right: 115px;
+    line-height: 172px;
+    vertical-align: middle;
+}
+
+.header-nav {
+    display: inline-block;
+    line-height: 172px;
+    vertical-align: middle;
+}
+
+.header-list {
+    margin-right: 144px;
+}
+
+.header-item {
+    display: inline-block;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #ffb822;
+}
+
+.header-form {
+    display: inline-block;
+    width: 274px;
+    height: 55px;
+    line-height: 172px;
+    vertical-align: middle;
+    border: 3px solid #9965e3;
+    border-radius: 10px;
+    position: relative;
+}
+    
+.label-search {
+    position: absolute;
+    left: 0;
+    line-height: 55px;
+    vertical-align: middle;
+    
+}
+
+.form-search {
+    width: 150px;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    
+}
+
+.image-search {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.header-bottom-container {
+    height: 780px;
+    padding-top: 320px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.7;
+    background-image: url(./image/kate\ leo.jpg);
+    position: relative;
+}
+
+.header-title {
+    font-size: 100px;
+    color: #ffb822;
+}
+
+.header-text {
+    font-size: 40px;
+}
