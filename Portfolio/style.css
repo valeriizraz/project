@@ -4,10 +4,8 @@
     height: 172px;
 }
 
-.header-top {
-}
-
-.container {
+.visibility-hidden {
+    visibility: hidden;
 }
 
 .header-logo {
