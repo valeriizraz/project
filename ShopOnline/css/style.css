@@ -2,8 +2,8 @@
   font-family: "lato serif";
   src: local("lato Serif") 
       local("lato-Serif-Regular") 
-      url(./fonts/lato-regular.woff2) format(woff2), 
-      url(./fonts/lato-regular.woff2) format(woff);
+      url(fonts/lato-regular.woff2) format(woff2), 
+      url(fonts/lato-regular.woff2) format(woff);
   font-display: swap;
 }
 
@@ -11,8 +11,8 @@
   font-family: "lato serif";
   src: local("lato Serif Bold") 
       local("lato-Serif-Bold") 
-      url(./fonts/lato-bold.woff2) format(woff2), 
-      url(./fonts/lato-bold.woff) format(woff);
+      url(fonts/lato-bold.woff2) format(woff2), 
+      url(fonts/lato-bold.woff) format(woff);
       font-display: swap;
 }
 
