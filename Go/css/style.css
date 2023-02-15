@@ -4,7 +4,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    background-color: #1B1A1B;
+    color: #FFFFFF;
 }
 
 h1, h2, h3, p {
@@ -22,33 +23,13 @@ a {
     text-decoration: none;
 }
 
-pre {
-    margin: 0;
-}
-
-figure {
-    margin: 0;
-}
-
 .blockquote {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-body {
-    background-color: #1B1A1B;
-    color: #FFFFFF;
-}
-
 .text-transform {
     text-transform: uppercase;
-}
-
-.wrapper {
-    width: 1180px;
-    padding-top: 146px;
-    padding-bottom: 50px;
-    margin: 0 auto;
 }
 
 .item_container {
@@ -64,4 +45,9 @@ body {
 
 .inline-block {
     display: inline-block;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
 }

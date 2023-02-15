@@ -1,35 +1,32 @@
 
 
+.header-container {
+    height: 823px;
+    padding-top: 146px;
+    position: relative;
+}
 
 .header {
-    width: 1180px;
-    height: 823px;
     margin-bottom: 60px;
-    position: relative;
+    
 }
 
 .header-title {
     font-size: 150px;
+    font-weight: 700;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px #000;
     
 }
 
-.header-title:after {
-    content: '';
-    display: inline-block;
-    width: 675px;
-    height: 762px;
-    background-image: url(img/dekstop/main_photo.png);
-    background-size: contain;
+.header-img {
     position: absolute;
-    right: -50px;
-    bottom: -35px;
-    z-index: -2;
+    right: 0;
+    bottom: 0;
 }
 
 .header-subtitle {
-    margin-left: 100px;
+    padding-left: 100px;
     font-size: 28px;
 }
 
@@ -41,35 +38,35 @@
 .rooms-title {
     margin-bottom: 60px;
 }
-.list-rooms {
+.item-rooms {
     font-size: 70px;
 }
 .room-vibes {
-    background-image: url(img/dekstop/galery/vibes.jpg);
+    background-image: url(../img/dekstop/galery/vibes.jpg);
     width: 1180px;
     height: 710px;
     margin-bottom: 60px;
 }
 .room-wars {
-    background-image: url(img/dekstop/galery/wars.jpg);
+    background-image: url(../img/dekstop/galery/wars.jpg);
     width: 1180px;
     height: 710px;
     margin-bottom: 60px;
 }
 .room-west {
-    background-image: url(img/dekstop/galery/west.jpg);
+    background-image: url(../img/dekstop/galery/west.jpg);
     width: 1180px;
     height: 710px;
     margin-bottom: 60px;
 }
 .room-style {
-    background-image: url(img/dekstop/galery/style.jpg);
+    background-image: url(../img/dekstop/galery/style.jpg);
     width: 1180px;
     height: 710px;
-    margin-bottom: 60px;
 }
 
-.room-text {
+.container-rooms {
+    display: inline-block;
     width: 211px;
     text-align: center;
     position: relative;
@@ -80,23 +77,13 @@
 /* booking ___________________________________________________________________________________*/
 
 .booking {
-    padding-top: 40px;
-}
-
-.booking-title {
-
-}
-
-.booking-subtitle {
+    padding-top: 100px;
 }
 
 /* about-us _________________________________________________________________________________*/
 
 .about {
-    margin-bottom: 100px;
-}
-
-.about-title {
+    padding-top: 100px;
 }
 
 .about-text-top {
@@ -160,13 +147,16 @@
 
 /* questions ______________________________________________________________________________ */
 
+.questions {
+    padding-top: 100px;
+}
+
 .item-questions {
     background-color: #fff;
     color: #1C1A1A;
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;
-    margin-bottom: 20px;
     position: relative;
     }
 
@@ -174,6 +164,10 @@
     background-color: #440F51;
     color: white;
     }
+
+.item-questions:not(:last-child) {
+    margin-bottom: 20px;
+}
 
 .questions-white:after {
     content: '';
@@ -183,7 +177,7 @@
     right: 70px;
     width: 40px;
     height: 40px;
-    background-image: url(img/main_page/questions/open.svg);
+    background-image: url(../img/main_page/questions/open.svg);
     background-size: contain;
     }
 
@@ -195,7 +189,7 @@
     right: 70px;
     width: 40px;
     height: 40px;
-    background-image: url(img/main_page/questions/open-purple.svg);
+    background-image: url(../img/main_page/questions/open-purple.svg);
     background-size: contain;
     }
 
@@ -207,8 +201,6 @@
         font-weight: 700;
     }
 
-    .contacts-title {
-    }
     .title {
         margin-bottom: 54px;
     }
@@ -225,7 +217,7 @@
         margin-right: 30px;
         position: relative;
         top: 5px;
-        background-image: url(img/dekstop/contacts/location.png);
+        background-image: url(../img/dekstop/contacts/location.png);
         background-size: contain;
     }
 
@@ -241,7 +233,7 @@
         margin-right: 30px;
         position: relative;
         top: 8px;
-        background-image: url(img/dekstop/contacts/bx_bxs-phone-call.png);
+        background-image: url(../img/dekstop/contacts/bx_bxs-phone-call.png);
         background-size: contain;
     }
 
@@ -257,7 +249,7 @@
         margin-right: 30px;
         position: relative;
         top: 8px;
-        background-image: url(img/dekstop/contacts/envelope.png);
+        background-image: url(../img/dekstop/contacts/envelope.png);
         background-size: contain;
     }
 
@@ -268,6 +260,7 @@
         outline-offset: 3px;
         border-radius: 50%;
         color: #fff;
+        transition-property: color, outline-color;
     }
 
     .social-item:not(:last-child){
