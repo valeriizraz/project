@@ -1,65 +1,45 @@
-@font-face {
-  font-family: "lato serif";
-  src: local("lato Serif") 
-      local("lato-Serif-Regular") 
-      url(fonts/lato-regular.woff2) format(woff2), 
-      url(fonts/lato-regular.woff2) format(woff);
-  font-display: swap;
+.top__title--size--big {
+  font-size: 50px;
 }
 
-@font-face {
-  font-family: "lato serif";
-  src: local("lato Serif Bold") 
-      local("lato-Serif-Bold") 
-      url(fonts/lato-bold.woff2) format(woff2), 
-      url(fonts/lato-bold.woff) format(woff);
-      font-display: swap;
+.top__title--margin--bottom {
+  margin-bottom: 40px;
+
 }
 
-body {
-  font-family: "lato serif";
-  font-size: 22px;
-  font-weight: 400;
-  padding-top: 50px;
-  padding-left: 50px;  
-  color: #2d2d2d;
+.top__text--margin--bottom {
+  margin-bottom: 20px;
 }
 
-ol, ul {
-  list-style: none;
+.top-list {
+  margin-bottom: 20px;
 }
 
-h1, h2, h3, p {
-  margin: 0;
-}
 
-.visibility-hidden {
-  visibility: hidden;
-  line-height: 22px;
-}
-.font-size {
+.top-list--size--small {
   font-size: 16px;
-  list-style-type: decimal;
 }
 
-.container {
-  width: 1090px;
-}
-
-.title-size {
-  font-size: 22px;
-}
-
-.margin-bottom {
-  margin-bottom: 30px;
-}
-
-.img-bottom {
+.bottom__img--margin--bottom {
   margin-bottom: 50px;
 }
 
-.list-style-none {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.bottom__img--margin--bottom {
+  margin-bottom: 50px;
+}
+
+.body-list__item-title--size--average {
+  font-weight: 700;
+}
+
+.body-list__item-title--margin--bottom {
+  margin-bottom: 20px;
+}
+
+.bottom__text--margin--bottom {
+  margin-bottom: 30px;
+}
+
+.bottom__img {
+  margin-bottom: 50px;
 }

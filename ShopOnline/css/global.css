@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "lato serif";
+  src: local("lato Serif") 
+      local("lato-Serif-Regular") 
+      url(fonts/lato-regular.woff2) format(woff2), 
+      url(fonts/lato-regular.woff2) format(woff);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "lato serif";
+  src: local("lato Serif Bold") 
+      local("lato-Serif-Bold") 
+      url(fonts/lato-bold.woff2) format(woff2), 
+      url(fonts/lato-bold.woff) format(woff);
+      font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: "lato serif";
+  font-size: 22px;
+  font-weight: 400;
+  
+  padding-top: 50px;
+  padding-left: 50px;  
+  color: #2d2d2d;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1, h2, h3, p, figure, figcaption {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.visibility-hidden {
+  position: absolute !important;
+    clip: rect(1px 1px 1px 1px);/* IE6, IE7 */
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.container {
+  width: 1090px;
+}
