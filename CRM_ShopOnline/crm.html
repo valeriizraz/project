@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM-ShopOnline</title>
+    <link rel="stylesheet" href="style/import.css">
+
+</head>
+<body>
+    
+    <div class="container-form">
+        <h2 class="container-form__title">Добавить товар</h2>
+
+        <form class="form-crm"
+            action="https://jsonplaceholder.typicode.com/posts" 
+            method="post"
+            enctype="multipart/form-data">
+            <fieldset class="form-crm__fieldset">
+
+                <p class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="name">Нраименование</label>
+                    <input class="form__input" type="text" name="name" id="name">
+                </p>
+
+                <p class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="category">Категория</label>
+                    <input class="form__input" type="text" name="category" id="category">
+                </p>
+
+                <p class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="unit">Единицы измерения</label>
+                    <input class="form__input" type="text" name="unit" id="unit">
+                </p>
+
+                <div class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="discount">Дисконт</label>
+                    <div class="box-checkbox">
+                        <input class="form__input form__input--width--small" type="checkbox" name="discount"  id="discount">
+                    </div>
+                    <div class="box-form">
+                        <input class="form__input form__input--width--big" type="text" name="discount" disabled>
+                    </div>
+                </div>
+
+                <p class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="textarea">Описание</label>
+                    <textarea class="form__input form__input--height--big" name="text" id="textarea"></textarea>
+                </p>
+
+                <p class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="number">Количество</label>
+                    <input class="form__input" type="number" name="number" id="number">
+                </p>
+
+                <p class="box__input box__input--margin--bottom">
+                    <label class="form__label form__label--margin--bottom" for="price">Цена</label>
+                    <input class="form__input" type="number" name="price" id="price">
+                </p>
+            
+            </fieldset>
+
+            <div class="float-right">
+                <button class="form-submit" type="submit">Добавить товар</button>
+            </div>
+            <div class="clear-fix"></div>    
+        </form>
+    </div>
+
+    
+
+</body>
+</html>

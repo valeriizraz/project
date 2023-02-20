@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Inter;
+  src: local(inter), 
+      local('Inter-Semi-Bold'),
+      url('../fonts/inter-v12-latin-600.woff2') format("woff2"),
+      url('../fonts/inter-v12-latin-600.woff') format('woff');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src:local(Inter), 
+      local('inter-Bold'), 
+      url('../fonts/inter-v12-latin-700.woff2') format('woff2'),
+      url('../fonts/inter-v12-latin-700.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: Lato;
+  src: local(Lato), local('Lato-Regular'), url('../fonts/lato-regular.woff2') format('woff2'),
+  url('../fonts/lato-regular.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: local(Lato), local('Lato-Bold'), url('../fonts/lato-bold.woff2') format('woff2'),
+  url('../fonts/lato-bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+} */
+
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: "Inter sans-serif";
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #6E6893;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p, figure, fieldset {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);/* IE6, IE7 */
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+label {
+  display: block;
+}
