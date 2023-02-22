@@ -1,45 +1,33 @@
-.top__title--size--big {
+.section-top__title {
   font-size: 50px;
-}
-
-.top__title--margin--bottom {
   margin-bottom: 40px;
-
 }
 
-.top__text--margin--bottom {
+.section-top__text {
   margin-bottom: 20px;
 }
 
-.top-list {
+.section-top__list {
   margin-bottom: 20px;
-}
-
-
-.top-list--size--small {
   font-size: 16px;
 }
 
-.bottom__img--margin--bottom {
+.section-top__img {
   margin-bottom: 50px;
 }
 
-.bottom__img--margin--bottom {
-  margin-bottom: 50px;
-}
-
-.body-list__item-title--size--average {
-  font-weight: 700;
-}
-
-.body-list__item-title--margin--bottom {
+.item__text {
   margin-bottom: 20px;
 }
 
-.bottom__text--margin--bottom {
+.font-weight {
+  font-weight: 700;
+}
+
+.section-bottom__text {
   margin-bottom: 30px;
 }
 
-.bottom__img {
+.section-bottom__img {
   margin-bottom: 50px;
 }

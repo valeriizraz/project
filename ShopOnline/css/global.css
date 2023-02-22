@@ -96,3 +96,7 @@ a {
 .container {
   width: 1090px;
 }
+
+.display-block {
+  display: block;
+}

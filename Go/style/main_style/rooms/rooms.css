@@ -1,38 +1,43 @@
 .rooms {
+  padding: 50px 0;
   font-weight: 700;
 }
 
-.rooms__list-item {
+.rooms__title {
+  margin-bottom: 60px;
+}
+
+.rooms__item {
   width: 1180px;
   height: 710px;
   font-size: 70px;
 }
 
-.rooms__list-item:not(:last-child) {
+.rooms__item:not(:last-child) {
   margin-bottom: 60px;
 }
 
-.rooms-title__container {
+.rooms__item_vibes {
+  background-image: url(../rooms/img_rooms/vibes.jpg);
+}
+
+.rooms__item_wars {
+  background-image: url(../rooms/img_rooms/wars.jpg);
+}
+
+.rooms__item_west {
+  background-image: url(../rooms/img_rooms/west.jpg);
+}
+
+.rooms__item_style {
+  background-image: url(../rooms/img_rooms/style.jpg);
+}
+
+.rooms__item-container {
   display: inline-block;
   width: 211px;
   text-align: center;
   position: relative;
   top: 35%;
   left: 40%;
-}
-
-.rooms__list-item--vibes {
-  background-image: url(../rooms/img_rooms/vibes.jpg);
-}
-
-.rooms__list-item--wars {
-  background-image: url(../rooms/img_rooms/wars.jpg);
-}
-
-.rooms__list-item--west {
-  background-image: url(../rooms/img_rooms/west.jpg);
-}
-
-.rooms__list-item--style {
-  background-image: url(../rooms/img_rooms/style.jpg);
 }

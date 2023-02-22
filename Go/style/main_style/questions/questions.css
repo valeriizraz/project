@@ -1,4 +1,12 @@
-.list-questions__item {
+.questions {
+  padding: 50px 0;
+}
+
+.questions__title {
+  margin-bottom: 40px;
+}
+
+.questions__item {
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
@@ -7,16 +15,16 @@
   position: relative;
 }
 
-.list-questions__item:nth-child(2n) {
+.questions__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.questions__item:nth-child(2n) {
   background-color: #440F51;
   color: white;
 }
 
-.list-questions__item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.list-questions__item--color--biolet:after {
+.questions__item_img_biolet:after {
   content: '';
   display: inline-block;
   position: absolute;
@@ -28,7 +36,7 @@
   background-size: contain;
 }
 
-.list-questions__item--color--white:after {
+.questions__item_img_white:after {
   content: '';
   display: inline-block;
   position: absolute;
