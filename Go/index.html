@@ -66,98 +66,98 @@
 					<h2 class="booking__title title">Забронировать</h2>
 					<p class="booking__subtitle">Выбери зал</p>
 
-					<form action="#">
-						<fieldset>
+					<form class="booking__form form" action="#">
+						<fieldset class="form__title">
 								
-							<label>
-								<input type="radio" name="film" value="80's vibes">80's vibes
+							<label class="form__label label-vibes">
+								<input class="label-vibes__input" type="radio" name="film" value="80's vibes">80's vibes
 							</label>
 							
-							<label>
-								<input type="radio" name="film" value="star wars">star wars
+							<label class="form__label label-wars">
+								<input class="label-wars__input" type="radio" name="film" value="star wars">star wars
 							</label>
 							
-							<label>
-								<input type="radio" name="film" value="wild west">wild west
+							<label class="form__label label-west">
+								<input class="label-west__input-radio" type="radio" name="film" value="wild west">wild west
 							</label>
 							
-							<label>
-								<input type="radio" name="film" value="neon style">neon style
+							<label class="form__label label-style">
+								<input class="label-style__input-radio" type="radio" name="film" value="neon style">neon style
 							</label>
 						
 						</fieldset>
 
 						
-						<fieldset>
-							<legend>Собери набор развлечений</legend>
-								<fieldset>
-									<legend>Приставка</legend>
+						<fieldset class="form__title">
+							<legend class="form__title-legend">Собери набор развлечений</legend>
+								<fieldset class="form__subtitle">
+									<legend class="form__title-legend">Приставка</legend>
 											
-										<ul>
-											<li>
-												<label>
-													<input type="radio" name="prefix" value="PlayStation">PlayStation
+										<ul class="form__list-entertainment">
+											<li class="form__item-entertainment item">
+												<label class="form__label label-console">
+													<input class="label-console__radio-ps" type="radio" name="prefix" value="PlayStation">PlayStation
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="radio" name="prefix" value="Sega Mega Drive">Sega Mega Drive
+											<li class="form__item-entertainment item">
+												<label class="form__label label-console">
+													<input class="label-console__radio-smd" type="radio" name="prefix" value="Sega Mega Drive">Sega Mega Drive
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="radio" name="prefix" value="X-box One S">X-box One S
+											<li class="form__item-entertainment item">
+												<label class="form__label label-console">
+													<input class="label-console__radio-xbox" type="radio" name="prefix" value="X-box One S">X-box One S
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="radio" name="prefix" value="Dendy">Dendy
+											<li class="form__item-entertainment item">
+												<label class="form__label label-console">
+													<input class="label-console__radio-dendy" type="radio" name="prefix" value="Dendy">Dendy
 												</label>
 											</li>
 										</ul>
 												
 								</fieldset>
 									
-								<fieldset>
-									<legend>Настольные игры</legend>
+								<fieldset class="form__subtitle">
+									<legend class="form__title-legend">Настольные игры</legend>
 											
-										<ul>
-											<li>
-												<label>
-													<input type="checkbox" name="games_Jenga" value="Jenga">Jenga
+										<ul class="form__list-games">
+											<li class="form__item-games item">
+												<label class="form__label label-games">
+													<input class="label-games__checkbox-henga" type="checkbox" name="games_Jenga" value="Jenga">Jenga
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="checkbox" name="games_Monopoly" value="Monopoly">Monopoly
+											<li class="form__item-games item">
+												<label class="form__label label-games">
+													<input class="label-games__checkbox-henga" type="checkbox" name="games_Monopoly" value="Monopoly">Monopoly
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="checkbox" name="games_Манчкин" value="munchkin">Манчкин
+											<li class="form__item-games item">
+												<label class="form__label label-games">
+													<input class="label-games__checkbox-manchkin" type="checkbox" name="games_Манчкин" value="munchkin">Манчкин
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="checkbox" name="games_Alias" value="Alias">Alias
+											<li class="form__item-games item">
+												<label class="form__label label-games">
+													<input class="label-games__checkbox-alias" type="checkbox" name="games_Alias" value="Alias">Alias
 												</label>
 											</li>
 										</ul>
 												
 								</fieldset>
 
-								<fieldset>
-									<legend>Дополнительно</legend>
+								<fieldset class="form__subtitle">
+									<legend class="form__title-legend">Дополнительно</legend>
 
-										<ul>
-											<li>
-												<label>
-													<input type="checkbox" name="karaoke" value="Karaoke">Караоке
+										<ul class="form__list-additionally">
+											<li class="form__item-additionally item">
+												<label class="form__label label-additionally">
+													<input class="label-additionally__checkbox-karaoke" type="checkbox" name="karaoke" value="Karaoke">Караоке
 												</label>
 											</li>
-											<li>
-												<label>
-													<input type="checkbox" name="vr" value="VR">VR
+											<li class="form__item-additionally item">
+												<label class="form__label label-additionally">
+													<input class="label-additionally__checkbox-vr" type="checkbox" name="vr" value="VR">VR
 												</label>        
 											</li>
 										</ul>
@@ -165,45 +165,45 @@
 								</fieldset>
 					</fieldset>
 
-					<fieldset>
-						<legend>Выбери дату и время</legend>
+					<fieldset class="form__subtitle">
+						<legend class="form__title-legend">Выбери дату и время</legend>
 								
-							<div>
-								<div>
-									<label>
-										<input type="date" name="data">
+							<div class="form__box-datpip box-people">
+								<div class="form__box-date">
+									<label class="form__label label-date">
+										<input class="label-date__date" type="date" name="data">
 									</label>
-									<label>
-										<input type="time" name="time">
+									<label class="form__label label-time">
+										<input class="label-time__time" type="time" name="time">
 									</label>
 								</div>
-								<label>Количество человек*
-									<input type="number" name="number_people">
+								<label class="form__label label-people">Количество человек*
+									<input class="label-people__quantity" type="number" name="number_people">
 								</label>
 							</div>
 
-							<div>
-								<label>Имя*
-									<input type="text" name="name">
+							<div class="form__box-name">
+								<label class="form__label label-name">Имя*
+									<input class="label-name__name" type="text" name="name">
 								</label>
 
-								<label>Фамилия*
-									<input type="text" name="name">
+								<label class="form__label label-surname">Фамилия*
+									<input class="label-surname__surname" type="text" name="name">
 								</label>
 							</div>
 							
-							<div>
-								<label>Телефон
-									<input type="tel" name="tel">
+							<div class="form__box-contact">
+								<label class="form__label label-tel">Телефон
+									<input class="label-tel__tel" type="tel" name="tel">
 								</label>
-								<label>E-mail
-									<input type="email" name="age">
+								<label class="form__label label-email">E-mail
+									<input class="label-email-email" type="email" name="age">
 								</label>
 							</div>
 									
 						</fieldset>
 
-						<button type="submit">Забронировать</button>
+						<button class="form__button" type="submit">Забронировать</button>
 							
 					</form>
 				</section>
