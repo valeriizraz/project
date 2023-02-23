@@ -1,20 +1,22 @@
 @font-face {
   font-family: inter;
+  font-weight: 600;
+  font-style: normal;
   src: local(inter), 
       local('Inter-Semi-Bold'),
       url('../fonts/inter-v12-latin-600.woff2') format("woff2"),
       url('../fonts/inter-v12-latin-600.woff') format('woff');
-  font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
   font-family: Inter;
+  font-weight: 700;
+  font-style: normal;
   src:local(Inter), 
       local('inter-Bold'), 
       url('../fonts/inter-v12-latin-700.woff2') format('woff2'),
       url('../fonts/inter-v12-latin-700.woff') format('woff');
-  font-weight: 700;
   font-display: swap;
 }
 
@@ -95,6 +97,3 @@ input[type="checkbox"] {
   overflow: hidden;
 }
 
-label {
-  display: block;
-}
