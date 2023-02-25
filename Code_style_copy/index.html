@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Style </title>
+</head>
+<body>
+  <header class="header">
+    <section class="header__top top">
+      <div class="top__container">
+        
+        <div class="top__left-link inline-block">
+          <a href="#">Code Style HTML</a>
+        </div>
+        
+        <nav class="top__right-nav nav inline-block">
+          <ul class="nav__list inline-block">
+            <li class="nav__item inline-block">
+              <button class="nav__searh">Search</button>
+            </li>
+            <li class="nav__item inline-block">
+              <a class="nav__link" href="#">Duplicate</a>
+            </li>
+            <li class="nav__item inline-block">
+              <div class="nav__menu inline-block"></div>
+              <div class="nav__menu inline-block"></div>
+              <div class="nav__menu inline-block"></div>
+            </li>
+            <li class="nav__item inline-block">
+              <a href="#" class="nav__link-img">Try Notion</a>
+            </li>
+          </ul>
+        </nav> 
+      </div>
+      <div class="container">
+        <section class="header__bottom">
+          <div class="header__bottom-img"></div>
+          <a class="header__bottom-link"></a>
+        </section>
+      </div>
+    </section>
+  </header>
+  <main class="body">
+    <div class="container">
+      <section class="code">
+        <h1 class="code__title">Code Style HTML</h1>
+        <ul class="code__list">
+          <li class="code__item">
+            <a href="#" class="code__link-html">@Code Style HTML </a>
+          </li>
+          <li class="code__item">
+            <a href="#" class="code__link-css">@Code Style CSS @Code Style Javascript для Верстальщика </a>
+          </li>
+          <li class="code__item">
+            <a href="#" class="code__link-js">@Code Style Javascript для Верстальщика 
+            </a>
+          </li>
+        </ul>
+
+        <h2 class="code__subtitle">!DOCTYPE</h2>
+        <p class="code__text">В начале страницы обязательно должен быть указан актуальный &lt;!DOCTYPE html&gt;, чтобы работать в режиме стандартов и последовательного рендеринга элементов в каждом доступном браузере.</p>
+      </section>
+      <section class="body__news news">
+        <ul class="news__list">
+          <li class="news__item item-atribut">
+            <h3 class="news__title">Атрибут локализации</h3>
+            <p class="news__text">Для элемента <html> в атрибуте lang должен указываться соответствующий язык документа.</p>
+            <p class="news__text">Это нужно для правильной работы синтеза речи, для переводчиков и поисковиков.</p>
+            <ul class="item-atribut__list">
+              <li class="item-atribut__item">
+                <h4 class="item-atribut__title">Вырезка из спецификации HTML5</h4>
+                <p class="item-atribut__text">Разработчикам рекомендуется указывать атрибут языка в начале html файла, тем самым указывая на принадлежность языка документа. Это способствует инструментам генерации голоса определить то, какое произношение использовать, а инструментам перевода определить каким правилам придерживаться и так далее. </p>
+              </li>
+            </ul>
+          </li>
+          <li class="news__item">
+            <h3 class="news__title">Кодировка символов документа</h3>
+            <p class="news__text">Кодировка символов на странице всегда должна быть явно указана, чтобы обеспечить корректное отображение текста.</p>
+            <p class="news__text">Для Кириллицы нужно использовать UTF-8 кодировку, убедитесь что ваш документ так же имеет кодировку UTF-8</p>
+            <img src="img/code_01.png" alt="Пример кода" class="news__img">
+          </li>
+          <li class="news__item">
+            <h3 class="news__title">Базовый синтаксис</h3>
+            <p class="news__text">Теги и их атрибуты пишутся строчными буквами.</p>
+            <p class="news__text">Для значений атрибутов всегда используются двойные кавычки.</p>
+            <p class="news__text">Для отступов у вложенных элементов используется отступ в 2 пробела (или табуляция размером 2 пробела).</p>
+            <img src="img/base_02.png" alt="Пример кода" class="news__img">
+          </li>
+          <li class="news__item">
+            <h3 class="news__title">Закрывающие теги</h3>
+            <p class="news__text">Закрывающий слеш у одиночных тегов (<img>, <br> и другие) не ставится.</p>
+            <p class="news__text">В остальных случаях , как <body></body>, <p></p>  или <li></li>, обязателен закрывающий тег.</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

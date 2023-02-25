@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(37, 35, 35);
+  color: rgb(204, 230, 230);
+}
+
+h1, h2, h3, p, figure, figcaption {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+

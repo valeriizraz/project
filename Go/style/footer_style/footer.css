@@ -17,7 +17,7 @@
   margin-bottom: 38px;
 }
 
-.contacts__adres:before {
+.contact__adres:before {
   content: '';
   display: inline-block;
   width: 35px;
@@ -25,7 +25,7 @@
   margin-right: 30px;
   position: relative;
   top: 5px;
-  background-image: url(footer_style/contacts/img_contacts/location.png);
+  background-image: url(../footer_style/contacts/img_contacts/location.png);
   background-size: contain;
 }
 
@@ -33,7 +33,7 @@
   margin-bottom: 11px;
 }
 
-.contacts__tel:before {
+.contact__tel:before {
   content: '';
   display: inline-block;
   width: 35px;
@@ -49,7 +49,7 @@
   margin-bottom: 39px;
 }
 
-.contacts__email:before {
+.contact__email:before {
   content: '';
   display: inline-block;
   width: 35px;
