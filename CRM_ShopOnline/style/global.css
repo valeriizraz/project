@@ -1,40 +1,22 @@
 @font-face {
-  font-family: inter;
+  font-family: 'Inter';
+  src: local('Inter Semi Bold'), local('Inter-Semi-Bold'),
+      url('../fonts/fonts_semi_bold/Inter-SemiBold.woff2') format('woff2'),
+      url('../fonts/fonts_semi_bold/Inter-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
-  src: local(inter), 
-      local('Inter-Semi-Bold'),
-      url('../fonts/inter-v12-latin-600.woff2') format("woff2"),
-      url('../fonts/inter-v12-latin-600.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: Inter;
+  font-family: 'Inter';
+  src: local('Inter Bold'), local('Inter-Bold'),
+      url('../fonts/fonts_bold/Inter-Bold.woff2') format('woff2'),
+      url('../fonts/fonts_bold/Inter-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
-  src:local(Inter), 
-      local('inter-Bold'), 
-      url('../fonts/inter-v12-latin-700.woff2') format('woff2'),
-      url('../fonts/inter-v12-latin-700.woff') format('woff');
   font-display: swap;
 }
-
-/* @font-face {
-  font-family: Lato;
-  src: local(Lato), local('Lato-Regular'), url('../fonts/lato-regular.woff2') format('woff2'),
-  url('../fonts/lato-regular.woff') format('woff');
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Lato;
-  src: local(Lato), local('Lato-Bold'), url('../fonts/lato-bold.woff2') format('woff2'),
-  url('../fonts/lato-bold.woff') format('woff');
-  font-weight: 700;
-  font-display: swap;
-} */
 
 html {
   box-sizing: border-box;
@@ -51,7 +33,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  font-family: "inter sans-serif";
+  font-family: "Inter";
   font-size: 12px;
   font-weight: 600;
 

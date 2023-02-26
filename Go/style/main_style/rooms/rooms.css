@@ -8,13 +8,20 @@
 }
 
 .rooms__item {
-  width: 1180px;
-  height: 710px;
+  display: inline-block;
+  width: 580px;
+  height: 349px;
+  margin-right: 15px;
+  margin-bottom: 20px;
   font-size: 70px;
 }
 
-.rooms__item:not(:last-child) {
-  margin-bottom: 60px;
+.rooms__item:nth-child(2n) {
+  margin-right: 0;
+} 
+
+.rooms__item:nth-last-child(-n+2) {
+  margin-bottom: 0;
 }
 
 .rooms__item_vibes {
@@ -33,11 +40,8 @@
   background-image: url(../rooms/img_rooms/style.jpg);
 }
 
-.rooms__item-container {
-  display: inline-block;
-  width: 211px;
+.rooms__item-title {
   text-align: center;
-  position: relative;
-  top: 35%;
-  left: 40%;
+  line-height: 349px;
+  vertical-align: middle;
 }

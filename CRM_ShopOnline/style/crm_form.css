@@ -13,6 +13,9 @@
   margin-bottom: 43px;
   font-size: 24px;
   text-transform: uppercase;
+  letter-spacing: 2.4px;
+  Line-height: 29px;
+  font-weight: 700;
 }
 
 .form-crm {
@@ -31,6 +34,9 @@
   display: block;
   padding-left: 10px;
   margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  line-height: 15px;
 }
 
 .input {
@@ -75,7 +81,7 @@
   height: 39px;
 
   text-align: center;
-  line-height: 39px;
+  line-height: 19px;
   vertical-align: middle;
 
   border: none;
