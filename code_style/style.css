@@ -1,31 +1,29 @@
 @import "global.css";
 
-.header {
-}
-.container {
-}
 .header__section {
   padding-top: 100px;
   text-align: center;
 }
+
 .header__title {
   margin-bottom: 25px;
   font-size: 70px;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .header__subtitle {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 100px;
   text-transform: uppercase;
 }
+
 .header__box-codestyle {
   max-width: 100%;
   font-size: 25px;
 }
-.box-codestyle {
-}
+
 .codestyle {
   display: inline-block;
   width: 49%;
@@ -37,10 +35,6 @@
   display: inline-block;
   color: red;
 }
-
-.codestyle-left {
-}
-
 
 .box-codestyle__right:before {
   content: '⇒';
